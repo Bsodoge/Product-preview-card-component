@@ -26,4 +26,5 @@ body{
 .item-type{
     color: hsl(228, 12%, 48%);
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
