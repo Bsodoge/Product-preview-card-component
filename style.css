@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 1.25rem;
 }
 .item-type{
     letter-spacing: 2px;
