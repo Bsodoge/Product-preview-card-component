@@ -18,3 +18,8 @@ body{
     padding: 2rem;
     border-radius: 10px;
 }
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
