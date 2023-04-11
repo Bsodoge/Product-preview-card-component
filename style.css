@@ -10,6 +10,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+.item-type, .description, .add-to-cart, .old-price{
+    font-family: 'Montserrat', sans-serif;
+}
+.item-name, .price{
+    font-family: 'Fraunces', sans-serif;
+}
+.item-type, .description{
+    color: hsl(228, 12%, 48%);
+}
 .container{
     background-color: white; 
     display: grid;
@@ -24,7 +33,6 @@ body{
     gap: 1.25rem;
 }
 .item-type{
-    color: hsl(228, 12%, 48%);
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 0.9rem;
