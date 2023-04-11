@@ -16,7 +16,7 @@ body{
 .item-name, .price{
     font-family: 'Fraunces', sans-serif;
 }
-.item-type, .description{
+.item-type, .description, .old-price{
     color: hsl(228, 12%, 48%);
 }
 .container{
@@ -45,4 +45,7 @@ body{
 .price{
     color: hsl(158, 36%, 37%);
     font-size: 2rem;
+}
+.old-price{
+    font-size: 0.9rem;
 }
