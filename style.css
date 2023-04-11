@@ -41,3 +41,7 @@ body{
     display: flex;
     gap: 8px;
 }
+.price{
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
