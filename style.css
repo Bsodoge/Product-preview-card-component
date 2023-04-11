@@ -10,15 +10,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-.item-type, .description, .add-to-cart, .old-price{
-    font-family: 'Montserrat', sans-serif;
-}
-.item-name, .price{
-    font-family: 'Fraunces', sans-serif;
-}
-.item-type, .description, .old-price{
-    color: hsl(228, 12%, 48%);
-}
 .container{
     background-color: white; 
     display: grid;
@@ -48,4 +39,29 @@ body{
 }
 .old-price{
     font-size: 0.9rem;
+}
+.add-to-cart{
+    all: unset;
+    padding: 15px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.add-to-cart:hover{
+    cursor: pointer;
+}
+.item-type, .description, .add-to-cart, .old-price{
+    font-family: 'Montserrat', sans-serif;
+}
+.item-name, .price{
+    font-family: 'Fraunces', sans-serif;
+}
+.item-type, .description, .old-price{
+    color: hsl(228, 12%, 48%);
 }
