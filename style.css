@@ -63,6 +63,12 @@ body{
 .add-to-cart:hover{
     cursor: pointer;
 }
+.description{
+    width: 90%;
+}
+.item-name{
+    width: 85%;
+}
 .item-type, .description, .add-to-cart, .old-price{
     font-family: 'Montserrat', sans-serif;
 }
