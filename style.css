@@ -40,6 +40,7 @@ body{
 .price-container{
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 .price{
     color: hsl(158, 36%, 37%);
