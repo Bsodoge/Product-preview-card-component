@@ -23,3 +23,7 @@ body{
     flex-direction: column;
     gap: 1.25rem;
 }
+.item-type{
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+}
