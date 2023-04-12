@@ -13,7 +13,8 @@ body{
 .container{
     background-color: white; 
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(15rem, 1fr));
     width: 50%;
     border-radius: 10px;
     gap: 1rem;
@@ -55,9 +56,12 @@ body{
     gap: 8px;
 }
 .left-side{
+    background-image: url("images/image-product-desktop.jpg");
     width: 100%;
     border-radius: 10px 0px 0px 10px;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .add-to-cart:hover{
     cursor: pointer;
@@ -76,4 +80,13 @@ body{
 }
 .item-type, .description, .old-price{
     color: hsl(228, 12%, 48%);
+}
+@media (max-width: 992px){
+    .left-side{
+        background-image: url("images/image-product-mobile.jpg");
+        border-radius: 10px 10px 0px 0px;
+    }
+    .container{
+        margin: 2rem;
+    }
 }
