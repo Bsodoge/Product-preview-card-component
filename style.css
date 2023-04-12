@@ -65,6 +65,7 @@ body{
 }
 .add-to-cart:hover{
     cursor: pointer;
+    background-color: #1a4031;
 }
 .description{
     width: 90%;
